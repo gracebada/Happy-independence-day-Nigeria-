@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Independence Day Nigeria</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #008752; 
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .flag {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            animation: wave 2s infinite ease-in-out; 
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px #0000001a;
+        }
+
+        .flag .green {
+            background-color: #008752; 
+            height: 100%;
+            width: 30%;
+            position: absolute;
+            top: 0;
+        }
+
+        .flag .white {
+            background-color: #ffffff;
+            height: 100%;
+            width: 40%;
+            position: absolute;
+            left: 30%;
+            top: 0;
+        }
+
+        .flag .green.right {
+            right: 0;
+        }
+
+        .message {
+            background-color: #ffffff;
+            border: 1px solid #008752;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px #0000001a;
+            max-width: 400px;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @keyframes wave {
+            0% {
+                transform: translateY(0);
+            }
+            25% {
+                transform: translateY(-5px);
+            }
+            50% {
+                transform: translateY(0);
+            }
+            75% {
+                transform: translateY(5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Independence Day Nigeria!</h1>
+    
+   
+    <div class="flag">
+        <div class="green"></div>
+        <div class="white"></div>
+        <div class="green right"></div>
+    </div>
+    
+    
+    <div class="message">
+        <p>Today, we celebrate the resilience and strength of our great nation.</p>
+        <p>May the spirit of independence live on in our hearts!</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
